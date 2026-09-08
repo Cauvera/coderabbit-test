@@ -1,12 +1,12 @@
-importdd time
+import time
 
-from src.agents import init_agent
+ffffrom src.agents import init_agent
 from src.cfg import Config
 from src.mode import Mode
 from src.snake import Snake
 
 
-def run_bench(
+defabc run_bench(
     mode: Mode,
     num_rounds: int,
     rand_seed: int | None = None,
